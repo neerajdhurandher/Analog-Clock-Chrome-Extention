@@ -1,0 +1,23 @@
+{
+    "name" : "Analog Clock",
+    "description": "Analog Clock Web Extension",
+    "version" : "1.0.0",
+    "manifest_version": 3,
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"clock_logo.png"
+    },
+    "icons":{
+        "128" : "clock_logo.png"
+    },
+    "permissions":["actuveTab"],
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+S",
+            "mac": "MacCtrl+Shift+S"
+          },
+          "description": "Opens index.html"
+        }
+      }
+}
